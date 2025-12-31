@@ -1,22 +1,22 @@
-# Market Data Analytics Dashboard
+Market Data Analytics Dashboard
 
 Interactive dashboard for visualizing market data from AWS RDS PostgreSQL database.
 
-## Features
+ Features
 - Interactive candlestick price charts
 - Volume analysis
 - Real-time ticker data querying
 - Summary statistics (latest close, average, high, low)
 - Adjustable data range (100-5000 records)
 
-## Tech Stack
+Tech Stack
 - **Python** - Core programming language
 - **Streamlit** - Web dashboard framework
 - **Plotly** - Interactive charting library
 - **PostgreSQL** - AWS RDS database
 - **pandas** - Data manipulation
 
-## Setup
+Setup
 
 1. Clone the repository:
 ```bash
@@ -46,21 +46,10 @@ Interactive dashboard for visualizing market data from AWS RDS PostgreSQL databa
 
 6. Open browser to `http://localhost:8501`
 
-## Usage
+Usage
 
 - Enter ticker symbol in sidebar (e.g., AAPL, GOOGL, MSFT)
 - Adjust number of records using slider
 - View interactive candlestick chart and volume data
 - Expand "View Raw Data" to see underlying data table
 
-## Screenshots
-(Add screenshots after deploying)
-
-## Project Structure
-```
-market-data-dashboard/
-├── dashboard.py              # Main Streamlit application
-├── db_connection_template.py # Database connection template
-├── requirements.txt          # Python dependencies
-└── README.md                 # This file
-```
